@@ -1,0 +1,118 @@
+export const en = {
+  nav: {
+    home: "Home",
+    services: "Services",
+    products: "Products",
+    ai_automation: "AI Automation",
+    portfolio: "Portfolio",
+    about: "About",
+    testimonials: "Testimonials",
+    contact: "Contact",
+  },
+  theme: {
+    toggle: "Toggle theme",
+    light: "Light",
+    dark: "Dark",
+    system: "System",
+  },
+  language: {
+    toggle: "Change language",
+  },
+  hero: {
+    slide1: {
+      title: "Innovative IT Solutions for Your Business",
+      description:
+        "We help businesses transform and grow with cutting-edge technology solutions tailored to their unique needs.",
+    },
+    slide2: {
+      title: "AI-Powered Business Automation",
+      description: "Streamline your operations and boost productivity with our intelligent automation solutions.",
+    },
+    slide3: {
+      title: "Creative Design Services",
+      description:
+        "Stand out from the competition with our eye-catching designs that communicate your brand message effectively.",
+    },
+    get_started: "Get Started",
+    learn_more: "Learn More",
+  },
+  services: {
+    title: "Our Services",
+    description:
+      "We offer a wide range of IT services to help businesses leverage technology for growth and innovation.",
+    learn_more: "Learn More",
+    view_all: "View All Services",
+    explore_all: "Explore All Services",
+  },
+  portfolio: {
+    title: "Our Portfolio",
+    description: "Explore our successful projects and see how we've helped businesses achieve their goals.",
+    view_details: "View Details",
+    view_all: "View All Projects",
+    client: "Client",
+    date: "Date",
+    technologies: "Technologies",
+    description: "Description",
+  },
+  testimonials: {
+    title: "Client Testimonials",
+    description: "Hear what our clients have to say about working with us.",
+    view_all: "View All Testimonials",
+  },
+  products: {
+    request_demo: "Request Demo",
+  },
+  cta: {
+    title: "Ready to Transform Your Business?",
+    description:
+      "Contact us today to discuss how we can help you achieve your business goals with our innovative IT solutions.",
+    get_started: "Get Started",
+    learn_more: "Learn More",
+  },
+  contact: {
+    name: "Name",
+    name_placeholder: "Your Name",
+    email: "Email",
+    email_placeholder: "your.email@example.com",
+    subject: "Subject",
+    subject_placeholder: "How can we help you?",
+    message: "Message",
+    message_placeholder: "Please provide details about your inquiry...",
+    send: "Send Message",
+    sending: "Sending...",
+    success_title: "Message Sent",
+    success_message: "Thank you for contacting us. We'll get back to you soon!",
+    error_title: "Error",
+    error_message: "There was an error sending your message. Please try again.",
+  },
+  ads: {
+    dismissed: "Advertisement dismissed",
+    dismissed_message: "You can restore ads in settings",
+    restore: "Restore",
+    show_again: "Show advertisement",
+  },
+  footer: {
+    about: "About Bhutrix",
+    about_text:
+      "Bhutrix is a leading IT company based in Guwahati, offering custom website development, CRM solutions, SAP consulting, AI business automation, and creative design services.",
+    services: "Our Services",
+    web_development: "Website Development",
+    crm_solutions: "CRM Solutions",
+    sap_consulting: "SAP Consulting",
+    ai_automation: "AI Business Automation",
+    creative_design: "Creative Design",
+    quick_links: "Quick Links",
+    about_us: "About Us",
+    portfolio: "Portfolio",
+    testimonials: "Testimonials",
+    contact: "Contact",
+    privacy_policy: "Privacy Policy",
+    contact_us: "Contact Us",
+    phone: "Phone",
+    email: "Email",
+    all_rights_reserved: "All rights reserved.",
+    terms: "Terms of Service",
+    privacy: "Privacy Policy",
+    cookies: "Cookies Policy",
+  },
+}

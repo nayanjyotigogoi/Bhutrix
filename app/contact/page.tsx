@@ -25,7 +25,6 @@ export default function ContactPage() {
                 <MapPin className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Address</p>
-                  <p>123 Tech Park, GS Road</p>
                   <p>Guwahati, Assam 781005</p>
                   <p>India</p>
                 </div>
@@ -34,7 +33,7 @@ export default function ContactPage() {
                 <Phone className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p>+91 98765 43210</p>
+                  <p>+91 99707385552</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -60,7 +59,7 @@ export default function ContactPage() {
             <CardContent className="p-0">
               <div className="aspect-video w-full bg-muted flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="address-map.png?height=400&width=600"
                   alt="Map Location"
                   className="w-full h-full object-cover"
                 />

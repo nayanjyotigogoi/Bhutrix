@@ -97,9 +97,9 @@ export default function AdminLoginPage() {
             </form>
           </CardContent>
           <CardFooter>
-            <p className="text-xs text-center w-full text-muted-foreground">
+            {/* <p className="text-xs text-center w-full text-muted-foreground">
               For demo purposes, use: admin@devsphere.com / admin123
-            </p>
+            </p> */}
           </CardFooter>
         </Card>
       </div>

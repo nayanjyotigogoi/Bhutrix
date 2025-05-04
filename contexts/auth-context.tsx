@@ -42,7 +42,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     try {
       // In a real app, this would be an API call to validate credentials
       // For demo purposes, we'll use hardcoded credentials
-      if (email === "admin@bhutrix.com" && password === "admin123") {
+      if (email === "admin@bhutrix.com" && password === "@Nayan2724") {
         const user = {
           id: "1",
           name: "Admin User",

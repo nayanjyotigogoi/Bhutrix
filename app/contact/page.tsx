@@ -33,14 +33,14 @@ export default function ContactPage() {
                 <Phone className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p>+91 99707385552</p>
+                  <p>+91 9707385552</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Mail className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p>workwithnayan27@gmail.com</p>
+                  <p>admin@bhutrix.com</p>
                 </div>
               </div>
               <div className="flex items-start">

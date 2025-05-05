@@ -19,20 +19,31 @@ export default function ServicesPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
         <div className="lg:col-span-2">
           <div className="grid md:grid-cols-2 gap-6">
-            {services.map((service, index) => (
+            {/* First 3 services */}
+            {services.slice(0, 3).map((service) => (
               <div key={service.id}>
                 <ServiceCard service={service} />
-                {index === 2 && inlineAd && (
-                  <div className="md:col-span-2 my-8">
-                    <Advertisement ad={inlineAd} />
-                  </div>
-                )}
+              </div>
+            ))}
+
+            {/* Inline ad after 3rd service */}
+            {inlineAd && (
+              <div className="md:col-span-2 my-8">
+                <Advertisement ad={inlineAd} />
+              </div>
+            )}
+
+            {/* Rest of the services */}
+            {services.slice(2).map((service) => (
+              <div key={service.id}>
+                <ServiceCard service={service} />
               </div>
             ))}
           </div>
         </div>
 
-        <div className="space-y-8">
+        {/* Sidebar section */}
+        <div className="my-8">
           {sidebarAd && (
             <div className="sticky top-24 mb-8">
               <Advertisement ad={sidebarAd} />

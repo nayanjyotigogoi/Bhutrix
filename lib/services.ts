@@ -1,35 +1,35 @@
 export interface Service {
-  id: string
-  title: string
-  shortDescription: string
-  description: string
-  image: string
-  icon: string
-  fullDescription?: string
+  id: string;
+  title: string;
+  shortDescription: string;
+  description: string;
+  image: string;
+  icon: string;
+  fullDescription?: string;
   features?: {
-    title: string
-    description: string
-    icon?: string
-  }[]
-  benefits?: string[]
+    title: string;
+    description: string;
+    icon?: string;
+  }[];
+  benefits?: string[];
   process?: {
-    step: number
-    title: string
-    description: string
-  }[]
+    step: number;
+    title: string;
+    description: string;
+  }[];
   faq?: {
-    question: string
-    answer: string
-  }[]
+    question: string;
+    answer: string;
+  }[];
   caseStudies?: {
-    id: string
-    title: string
-    client: string
-    challenge: string
-    solution: string
-    result: string
-    image: string
-  }[]
+    id: string;
+    title: string;
+    client: string;
+    challenge: string;
+    solution: string;
+    result: string;
+    image: string;
+  }[];
 }
 
 export function getServices(): Service[] {
@@ -44,38 +44,44 @@ export function getServices(): Service[] {
       icon: "globe",
       fullDescription: `Our website development service delivers custom, responsive, and user-friendly websites that are tailored to your specific business needs. We focus on creating websites that not only look great but also perform exceptionally well.
 
-Our team of experienced developers uses the latest technologies and best practices to ensure your website is fast, secure, and scalable. Whether you need a simple informational website, a complex e-commerce platform, or a custom web application, we have the expertise to bring your vision to life.
+      Our team of experienced developers uses the latest technologies and best practices to ensure your website is fast, secure, and scalable. Whether you need a simple informational website, a complex e-commerce platform, or a custom web application, we have the expertise to bring your vision to life.
 
-We follow a collaborative approach, working closely with you throughout the development process to ensure the final product aligns with your goals and exceeds your expectations.`,
+      We follow a collaborative approach, working closely with you throughout the development process to ensure the final product aligns with your goals and exceeds your expectations.`,
       features: [
         {
           title: "Responsive Design",
-          description: "Websites that look and function perfectly on all devices, from desktops to smartphones",
+          description:
+            "Websites that look and function perfectly on all devices, from desktops to smartphones",
           icon: "smartphone",
         },
         {
           title: "Custom Development",
-          description: "Tailored solutions built from scratch to meet your specific requirements",
+          description:
+            "Tailored solutions built from scratch to meet your specific requirements",
           icon: "code",
         },
         {
           title: "E-commerce Integration",
-          description: "Secure online stores with payment processing and inventory management",
+          description:
+            "Secure online stores with payment processing and inventory management",
           icon: "shopping-cart",
         },
         {
           title: "Content Management",
-          description: "User-friendly CMS that makes it easy to update and manage your website content",
+          description:
+            "User-friendly CMS that makes it easy to update and manage your website content",
           icon: "file-text",
         },
         {
           title: "SEO Optimization",
-          description: "Built-in search engine optimization to improve your visibility online",
+          description:
+            "Built-in search engine optimization to improve your visibility online",
           icon: "search",
         },
         {
           title: "Performance Optimization",
-          description: "Fast-loading pages that provide an excellent user experience",
+          description:
+            "Fast-loading pages that provide an excellent user experience",
           icon: "zap",
         },
       ],
@@ -189,33 +195,38 @@ We follow a collaborative approach, working closely with you throughout the deve
       icon: "users",
       fullDescription: `Our Customer Relationship Management (CRM) solutions are designed to help businesses effectively manage their interactions with current and potential customers. We provide customized CRM systems that streamline your sales processes, improve customer service, and enhance marketing efforts.
 
-Our team works closely with you to understand your specific business processes and requirements, ensuring that the CRM solution we deliver aligns perfectly with your needs. Whether you need a new CRM system built from scratch or integration with your existing systems, we have the expertise to deliver a solution that drives results.
+      Our team works closely with you to understand your specific business processes and requirements, ensuring that the CRM solution we deliver aligns perfectly with your needs. Whether you need a new CRM system built from scratch or integration with your existing systems, we have the expertise to deliver a solution that drives results.
 
-With our CRM solutions, you'll gain valuable insights into your customer relationships, enabling you to make data-driven decisions that improve customer satisfaction and boost your bottom line.`,
+      With our CRM solutions, you'll gain valuable insights into your customer relationships, enabling you to make data-driven decisions that improve customer satisfaction and boost your bottom line.`,
       features: [
         {
           title: "Contact Management",
-          description: "Centralized database for all customer information and interaction history",
+          description:
+            "Centralized database for all customer information and interaction history",
           icon: "users",
         },
         {
           title: "Sales Pipeline Management",
-          description: "Track and manage leads through your sales process with visual pipelines",
+          description:
+            "Track and manage leads through your sales process with visual pipelines",
           icon: "trending-up",
         },
         {
           title: "Task & Activity Management",
-          description: "Schedule and track follow-ups, meetings, and other customer-related activities",
+          description:
+            "Schedule and track follow-ups, meetings, and other customer-related activities",
           icon: "calendar",
         },
         {
           title: "Reporting & Analytics",
-          description: "Comprehensive reports and dashboards to track performance and identify trends",
+          description:
+            "Comprehensive reports and dashboards to track performance and identify trends",
           icon: "bar-chart",
         },
         {
           title: "Email Integration",
-          description: "Seamless integration with email systems for tracking communications",
+          description:
+            "Seamless integration with email systems for tracking communications",
           icon: "mail",
         },
         {
@@ -248,7 +259,8 @@ With our CRM solutions, you'll gain valuable insights into your customer relatio
         {
           step: 3,
           title: "Development & Customization",
-          description: "We develop and customize the CRM system according to the approved design and specifications.",
+          description:
+            "We develop and customize the CRM system according to the approved design and specifications.",
         },
         {
           step: 4,
@@ -259,7 +271,8 @@ With our CRM solutions, you'll gain valuable insights into your customer relatio
         {
           step: 5,
           title: "Testing & Quality Assurance",
-          description: "We thoroughly test the CRM system to ensure it works as expected and meets all requirements.",
+          description:
+            "We thoroughly test the CRM system to ensure it works as expected and meets all requirements.",
         },
         {
           step: 6,
@@ -329,163 +342,6 @@ With our CRM solutions, you'll gain valuable insights into your customer relatio
       ],
     },
     {
-      id: "sap-consulting",
-      title: "SAP Consulting",
-      shortDescription: "Expert guidance for SAP implementation",
-      description:
-        "Our SAP consultants provide end-to-end services from planning and implementation to support and maintenance. We help you leverage SAP's capabilities to optimize your business processes.",
-      image: "sap-consulting.jpg",
-      icon: "database",
-      fullDescription: `Our SAP Consulting services provide expert guidance and support for businesses looking to implement, optimize, or upgrade their SAP systems. With our team of certified SAP consultants, we help you leverage the full potential of SAP's powerful capabilities to streamline your business processes and drive growth.
-
-We offer end-to-end SAP services, from initial planning and requirements analysis to implementation, training, and ongoing support. Our consultants have deep expertise across various SAP modules and industries, ensuring that we deliver solutions that address your specific business challenges.
-
-Whether you're considering a new SAP implementation, struggling with an existing system, or planning to migrate to S/4HANA, our team is here to guide you through every step of the journey, minimizing disruption and maximizing return on investment.`,
-      features: [
-        {
-          title: "SAP Implementation",
-          description: "End-to-end implementation services for various SAP modules and solutions",
-          icon: "settings",
-        },
-        {
-          title: "SAP S/4HANA Migration",
-          description: "Smooth transition from legacy systems to SAP S/4HANA",
-          icon: "refresh-cw",
-        },
-        {
-          title: "Process Optimization",
-          description: "Streamline and optimize your business processes using SAP best practices",
-          icon: "trending-up",
-        },
-        {
-          title: "Integration Services",
-          description: "Seamless integration of SAP with other enterprise systems",
-          icon: "link",
-        },
-        {
-          title: "Support & Maintenance",
-          description: "Ongoing support and maintenance to ensure optimal system performance",
-          icon: "life-buoy",
-        },
-        {
-          title: "Training & Knowledge Transfer",
-          description: "Comprehensive training programs for your team to maximize SAP adoption",
-          icon: "book-open",
-        },
-      ],
-      benefits: [
-        "Streamlined and standardized business processes",
-        "Improved operational efficiency and productivity",
-        "Enhanced data visibility and decision-making capabilities",
-        "Reduced operational costs and IT complexity",
-        "Scalable solution that grows with your business",
-        "Compliance with industry regulations and standards",
-      ],
-      process: [
-        {
-          step: 1,
-          title: "Discovery & Assessment",
-          description:
-            "We analyze your current systems, business processes, and requirements to understand your specific needs and challenges.",
-        },
-        {
-          step: 2,
-          title: "Solution Design",
-          description:
-            "Based on our assessment, we design an SAP solution that aligns with your business objectives and addresses your challenges.",
-        },
-        {
-          step: 3,
-          title: "Implementation Planning",
-          description:
-            "We develop a detailed implementation plan, including timeline, resource allocation, risk management, and change management strategies.",
-        },
-        {
-          step: 4,
-          title: "Configuration & Development",
-          description:
-            "Our team configures the SAP system according to your requirements and develops any necessary custom functionality.",
-        },
-        {
-          step: 5,
-          title: "Data Migration",
-          description:
-            "We securely migrate your data from existing systems to the new SAP environment, ensuring data integrity and completeness.",
-        },
-        {
-          step: 6,
-          title: "Testing & Quality Assurance",
-          description:
-            "We conduct thorough testing, including unit testing, integration testing, and user acceptance testing, to ensure the system works as expected.",
-        },
-        {
-          step: 7,
-          title: "Training & Go-Live",
-          description:
-            "We train your team on the new system and provide support during the go-live phase to ensure a smooth transition.",
-        },
-        {
-          step: 8,
-          title: "Post-Implementation Support",
-          description:
-            "We provide ongoing support and optimization to ensure you continue to get the most value from your SAP investment.",
-        },
-      ],
-      faq: [
-        {
-          question: "Which SAP modules do you support?",
-          answer:
-            "We support all major SAP modules, including but not limited to SAP S/4HANA, SAP ERP, SAP CRM, SAP SCM, SAP HCM, SAP FICO, SAP MM, SAP SD, and SAP PP. Our consultants are certified in various modules and have extensive experience implementing and supporting them.",
-        },
-        {
-          question: "How long does an SAP implementation typically take?",
-          answer:
-            "The duration of an SAP implementation depends on various factors, including the scope of the project, the number of modules being implemented, the complexity of your business processes, and the level of customization required. A typical implementation can range from 3-6 months for smaller projects to 1-2 years for large, complex implementations.",
-        },
-        {
-          question: "What industries do you have experience with?",
-          answer:
-            "Our SAP consultants have experience across various industries, including manufacturing, retail, healthcare, financial services, logistics, and professional services. This diverse experience allows us to understand industry-specific challenges and implement solutions that address them effectively.",
-        },
-        {
-          question: "Should we migrate to SAP S/4HANA now?",
-          answer:
-            "SAP S/4HANA offers significant advantages over previous versions, including improved performance, simplified data models, and enhanced analytics capabilities. However, the decision to migrate should be based on your specific business needs, current system landscape, and strategic objectives. We can help you assess the benefits and challenges of migration and develop a roadmap that aligns with your business goals.",
-        },
-        {
-          question: "How do you ensure a successful SAP implementation?",
-          answer:
-            "We follow a proven methodology that includes thorough planning, effective change management, comprehensive testing, and user training. We also emphasize clear communication, stakeholder engagement, and risk management throughout the project. Our experienced project managers ensure that the implementation stays on track and delivers the expected business value.",
-        },
-      ],
-      caseStudies: [
-        {
-          id: "case1",
-          title: "SAP S/4HANA Implementation",
-          client: "IndustrialTech",
-          challenge:
-            "IndustrialTech was struggling with outdated legacy systems that couldn't support their growth and were becoming increasingly costly to maintain.",
-          solution:
-            "We implemented SAP S/4HANA with modules for Finance, Materials Management, Sales & Distribution, and Production Planning, tailored to their manufacturing processes.",
-          result:
-            "50% reduction in month-end closing time, 30% improvement in inventory accuracy, 25% reduction in procurement costs, and real-time visibility into operations.",
-          image: "sap-consulting.jpg",
-        },
-        {
-          id: "case2",
-          title: "SAP Business Process Optimization",
-          client: "LogisticsPro",
-          challenge:
-            "LogisticsPro had implemented SAP several years ago but wasn't realizing the full benefits due to inefficient processes and limited system utilization.",
-          solution:
-            "We conducted a comprehensive assessment of their SAP environment and business processes, implementing optimizations and additional functionality to address gaps.",
-          result:
-            "40% reduction in order processing time, 35% improvement in delivery performance, 20% reduction in operational costs, and enhanced customer satisfaction.",
-          image: "sap-consulting.jpg",
-        },
-      ],
-    },
-    {
       id: "ai-automation",
       title: "AI Business Automation",
       shortDescription: "Intelligent automation for increased efficiency",
@@ -495,38 +351,44 @@ Whether you're considering a new SAP implementation, struggling with an existing
       icon: "cpu",
       fullDescription: `Our AI Business Automation services harness the power of artificial intelligence to transform your business operations. We develop intelligent automation solutions that streamline processes, reduce manual effort, and drive efficiency across your organization.
 
-By combining AI technologies such as machine learning, natural language processing, and computer vision with robotic process automation (RPA), we create end-to-end solutions that can handle complex tasks that previously required human intervention.
+      By combining AI technologies such as machine learning, natural language processing, and computer vision with robotic process automation (RPA), we create end-to-end solutions that can handle complex tasks that previously required human intervention.
 
-Our team works closely with you to identify automation opportunities, develop customized AI solutions, and implement them seamlessly into your existing workflows. The result is increased productivity, reduced costs, improved accuracy, and the ability to scale operations without proportionally increasing resources.`,
+      Our team works closely with you to identify automation opportunities, develop customized AI solutions, and implement them seamlessly into your existing workflows. The result is increased productivity, reduced costs, improved accuracy, and the ability to scale operations without proportionally increasing resources.`,
       features: [
         {
           title: "Process Automation",
-          description: "Automate repetitive tasks and workflows to increase efficiency and reduce errors",
+          description:
+            "Automate repetitive tasks and workflows to increase efficiency and reduce errors",
           icon: "repeat",
         },
         {
           title: "Predictive Analytics",
-          description: "Analyze historical data to forecast trends and make data-driven decisions",
+          description:
+            "Analyze historical data to forecast trends and make data-driven decisions",
           icon: "bar-chart",
         },
         {
           title: "Intelligent Chatbots",
-          description: "AI-powered conversational agents for customer support and internal processes",
+          description:
+            "AI-powered conversational agents for customer support and internal processes",
           icon: "message-circle",
         },
         {
           title: "Document Processing",
-          description: "Automated extraction and processing of information from various document types",
+          description:
+            "Automated extraction and processing of information from various document types",
           icon: "file-text",
         },
         {
           title: "Computer Vision",
-          description: "Image and video analysis for quality control, security, and process monitoring",
+          description:
+            "Image and video analysis for quality control, security, and process monitoring",
           icon: "eye",
         },
         {
           title: "Decision Support",
-          description: "AI-driven insights and recommendations to support decision-making",
+          description:
+            "AI-driven insights and recommendations to support decision-making",
           icon: "cpu",
         },
       ],
@@ -543,12 +405,14 @@ Our team works closely with you to identify automation opportunities, develop cu
         {
           step: 1,
           title: "Process Assessment",
-          description: "We analyze your current processes to identify automation opportunities and potential ROI.",
+          description:
+            "We analyze your current processes to identify automation opportunities and potential ROI.",
         },
         {
           step: 2,
           title: "Solution Design",
-          description: "We design an AI automation solution tailored to your specific requirements and objectives.",
+          description:
+            "We design an AI automation solution tailored to your specific requirements and objectives.",
         },
         {
           step: 3,
@@ -559,22 +423,26 @@ Our team works closely with you to identify automation opportunities, develop cu
         {
           step: 4,
           title: "Development",
-          description: "Our team develops the full AI automation solution, including all necessary integrations.",
+          description:
+            "Our team develops the full AI automation solution, including all necessary integrations.",
         },
         {
           step: 5,
           title: "Testing & Validation",
-          description: "We thoroughly test the solution to ensure it performs as expected and meets all requirements.",
+          description:
+            "We thoroughly test the solution to ensure it performs as expected and meets all requirements.",
         },
         {
           step: 6,
           title: "Deployment",
-          description: "We deploy the solution to your production environment and provide training to your team.",
+          description:
+            "We deploy the solution to your production environment and provide training to your team.",
         },
         {
           step: 7,
           title: "Monitoring & Optimization",
-          description: "We continuously monitor the solution's performance and make optimizations to improve results.",
+          description:
+            "We continuously monitor the solution's performance and make optimizations to improve results.",
         },
       ],
       faq: [
@@ -584,7 +452,8 @@ Our team works closely with you to identify automation opportunities, develop cu
             "Many business processes can benefit from AI automation, including data entry and processing, customer support, document review and analysis, inventory management, quality control, fraud detection, and predictive maintenance. We can help you identify which processes in your organization would benefit most from automation.",
         },
         {
-          question: "How long does it take to implement an AI automation solution?",
+          question:
+            "How long does it take to implement an AI automation solution?",
           answer:
             "The implementation timeline varies depending on the complexity of the processes being automated and the extent of integration required. Simple automations might take 4-8 weeks, while more complex projects can take 3-6 months. We'll provide a detailed timeline during the planning phase.",
         },
@@ -594,7 +463,8 @@ Our team works closely with you to identify automation opportunities, develop cu
             "The goal of AI automation is not to replace employees but to augment their capabilities and free them from repetitive, low-value tasks. This allows your team to focus on more strategic, creative, and customer-facing activities that require human judgment and empathy.",
         },
         {
-          question: "How do you ensure the quality and accuracy of AI automation?",
+          question:
+            "How do you ensure the quality and accuracy of AI automation?",
           answer:
             "We implement rigorous testing and validation processes to ensure the accuracy of our AI solutions. This includes training the AI models on relevant data, conducting extensive testing in various scenarios, implementing human oversight where appropriate, and continuously monitoring and improving the system based on performance metrics.",
         },
@@ -641,38 +511,44 @@ Our team works closely with you to identify automation opportunities, develop cu
       icon: "paintbrush",
       fullDescription: `Our Creative Design services deliver visually stunning and strategically effective designs that help your brand stand out in today's competitive marketplace. We combine artistic creativity with marketing expertise to create designs that not only look beautiful but also communicate your brand message effectively and drive results.
 
-Our team of talented designers works closely with you to understand your brand, target audience, and business objectives. We then translate these insights into compelling visual assets that resonate with your audience and strengthen your brand identity.
+      Our team of talented designers works closely with you to understand your brand, target audience, and business objectives. We then translate these insights into compelling visual assets that resonate with your audience and strengthen your brand identity.
 
-From logo design and brand identity to marketing materials and digital assets, we provide comprehensive design solutions that maintain consistency across all touchpoints while adapting to different platforms and contexts.`,
+      From logo design and brand identity to marketing materials and digital assets, we provide comprehensive design solutions that maintain consistency across all touchpoints while adapting to different platforms and contexts.`,
       features: [
         {
           title: "Brand Identity Design",
-          description: "Logo design, color palettes, typography, and comprehensive brand guidelines",
+          description:
+            "Logo design, color palettes, typography, and comprehensive brand guidelines",
           icon: "pen-tool",
         },
         {
           title: "Print Design",
-          description: "Business cards, brochures, flyers, posters, packaging, and other print materials",
+          description:
+            "Business cards, brochures, flyers, posters, packaging, and other print materials",
           icon: "printer",
         },
         {
           title: "Digital Design",
-          description: "Website graphics, social media assets, email templates, and digital advertisements",
+          description:
+            "Website graphics, social media assets, email templates, and digital advertisements",
           icon: "monitor",
         },
         {
           title: "UI/UX Design",
-          description: "User-centered interface design for websites, applications, and digital products",
+          description:
+            "User-centered interface design for websites, applications, and digital products",
           icon: "layout",
         },
         {
           title: "Marketing Collateral",
-          description: "Sales presentations, product catalogs, annual reports, and promotional materials",
+          description:
+            "Sales presentations, product catalogs, annual reports, and promotional materials",
           icon: "briefcase",
         },
         {
           title: "Environmental Design",
-          description: "Signage, exhibition booths, office spaces, and retail environments",
+          description:
+            "Signage, exhibition booths, office spaces, and retail environments",
           icon: "map",
         },
       ],
@@ -783,6 +659,151 @@ From logo design and brand identity to marketing materials and digital assets, w
       ],
     },
     {
+      id: "ui-ux-design",
+      title: "UI/UX Design",
+      shortDescription: "User-centered design for web and mobile platforms",
+      description:
+        "We create intuitive, engaging digital experiences through research-driven and user-focused design. Our design solutions aim to enhance usability, aesthetics, and overall customer satisfaction.",
+      image: "mobile-app-ux-ui-basics.jpg",
+      icon: "pen-tool",
+      fullDescription: `Our UI/UX Design service focuses on delivering seamless, user-friendly, and visually appealing designs for web and mobile platforms. We combine creativity with usability principles to craft experiences that captivate users and achieve business objectives.
+    
+      Whether you're building a new product from scratch or enhancing an existing one, we ensure that your application is easy to navigate, aesthetically pleasing, and optimized for engagement. Our team follows a collaborative design process, working closely with you to understand your brand, audience, and goals.
+    
+      From research and wireframes to high-fidelity prototypes and usability testing, we provide comprehensive design services that bridge the gap between form and function.`,
+      features: [
+        {
+          title: "User Research & Analysis",
+          description:
+            "In-depth understanding of user needs, behaviors, and pain points to inform design decisions",
+          icon: "search",
+        },
+        {
+          title: "Wireframing & Prototyping",
+          description:
+            "Creation of wireframes and interactive prototypes to visualize app flow and functionality",
+          icon: "layout",
+        },
+        {
+          title: "Visual & Interaction Design",
+          description:
+            "Polished, brand-aligned visual design with intuitive interactions for an engaging experience",
+          icon: "brush",
+        },
+        {
+          title: "Usability Testing",
+          description:
+            "Testing prototypes with real users to identify issues and optimize the user experience",
+          icon: "check-circle",
+        },
+        {
+          title: "Design Systems",
+          description:
+            "Development of scalable design systems to ensure consistency across products and platforms",
+          icon: "layers",
+        },
+      ],
+      benefits: [
+        "Improved user satisfaction and engagement",
+        "Stronger brand identity and trust",
+        "Reduced development time through early validation",
+        "Increased conversion and retention rates",
+        "Clearer user flows and minimized friction",
+        "Competitive advantage through superior user experience",
+      ],
+      process: [
+        {
+          step: 1,
+          title: "Discovery & Research",
+          description:
+            "We gather insights about your business, users, and market to inform the design strategy.",
+        },
+        {
+          step: 2,
+          title: "Wireframing",
+          description:
+            "We create low-fidelity wireframes to map out the app or website’s structure and flow.",
+        },
+        {
+          step: 3,
+          title: "Visual Design",
+          description:
+            "Our designers craft high-fidelity designs that combine aesthetics with usability.",
+        },
+        {
+          step: 4,
+          title: "Prototyping",
+          description:
+            "We develop interactive prototypes to simulate user journeys and gather early feedback.",
+        },
+        {
+          step: 5,
+          title: "User Testing",
+          description:
+            "We test prototypes with real users to identify usability issues and make improvements.",
+        },
+        {
+          step: 6,
+          title: "Delivery & Handoff",
+          description:
+            "We deliver final design assets and collaborate with developers for a smooth implementation.",
+        },
+      ],
+      faq: [
+        {
+          question: "Why is UI/UX design important for my project?",
+          answer:
+            "Good UI/UX design ensures your app or website is easy to use, engaging, and aligned with user expectations. It can improve customer satisfaction, reduce churn, and lead to better business outcomes.",
+        },
+        {
+          question: "Do you offer design-only services?",
+          answer:
+            "Yes, we offer standalone design services as well as integrated design and development packages. Whether you need just the design or the full product build, we can support your project.",
+        },
+        {
+          question: "What tools do you use for design?",
+          answer:
+            "We use industry-leading tools such as Figma, Adobe XD, Sketch, and InVision for wireframing, visual design, and prototyping, ensuring smooth collaboration and handoff.",
+        },
+        {
+          question: "Can you redesign my existing app or website?",
+          answer:
+            "Absolutely! We specialize in enhancing existing products through UI/UX redesigns that improve usability, aesthetics, and overall performance.",
+        },
+        {
+          question: "How long does a design project take?",
+          answer:
+            "The timeline depends on the scope and complexity of the project. A simple design could take 2-4 weeks, while larger, more complex projects may take several months. We’ll provide a detailed timeline after the discovery phase.",
+        },
+      ],
+      caseStudies: [
+        {
+          id: "case1",
+          title: "E-commerce Redesign",
+          client: "ShopEase",
+          challenge:
+            "ShopEase wanted to revamp its outdated e-commerce platform to improve user experience and increase conversions.",
+          solution:
+            "We conducted user research, redesigned the entire interface, and created a streamlined checkout process with modern aesthetics.",
+          result:
+            "30% increase in conversions, 25% higher user retention, and positive feedback from both new and returning customers.",
+          image: "ui-ux-design.jpg",
+        },
+        {
+          id: "case2",
+          title: "Healthcare App UX Optimization",
+          client: "MediTrack",
+          challenge:
+            "MediTrack's app had complex navigation and low user satisfaction, leading to poor engagement.",
+          solution:
+            "We simplified the app’s flow, enhanced accessibility, and introduced a clean, modern visual style.",
+          result:
+            "40% increase in daily active users, 4.6/5 average app rating, and a 50% reduction in support tickets related to usability issues.",
+          image: "ui-ux-design.jpg",
+        },
+      ],
+    },
+    {
       id: "mobile-apps",
       title: "Mobile App Development",
       shortDescription: "Native and cross-platform mobile applications",
@@ -792,38 +813,44 @@ From logo design and brand identity to marketing materials and digital assets, w
       icon: "smartphone",
       fullDescription: `Our Mobile App Development service delivers high-quality, user-friendly applications for iOS and Android platforms that help businesses engage customers, streamline operations, and drive growth. We combine technical expertise with creative design to create mobile experiences that users love and that deliver measurable business results.
 
-Whether you need a native app for maximum performance, a cross-platform solution for broader reach, or a progressive web app for cost-effectiveness, our team has the skills and experience to bring your vision to life. We follow a user-centered design approach and agile development methodology to ensure that the final product meets both user needs and business objectives.
+      Whether you need a native app for maximum performance, a cross-platform solution for broader reach, or a progressive web app for cost-effectiveness, our team has the skills and experience to bring your vision to life. We follow a user-centered design approach and agile development methodology to ensure that the final product meets both user needs and business objectives.
 
-From concept to launch and beyond, we provide end-to-end mobile app development services, including strategy, design, development, testing, deployment, and ongoing support and maintenance.`,
+      From concept to launch and beyond, we provide end-to-end mobile app development services, including strategy, design, development, testing, deployment, and ongoing support and maintenance.`,
       features: [
         {
           title: "Native App Development",
-          description: "High-performance applications built specifically for iOS or Android platforms",
+          description:
+            "High-performance applications built specifically for iOS or Android platforms",
           icon: "smartphone",
         },
         {
           title: "Cross-Platform Development",
-          description: "Efficient development for multiple platforms using frameworks like React Native or Flutter",
+          description:
+            "Efficient development for multiple platforms using frameworks like React Native or Flutter",
           icon: "layers",
         },
         {
           title: "UI/UX Design",
-          description: "Intuitive, engaging user interfaces that follow platform-specific design guidelines",
+          description:
+            "Intuitive, engaging user interfaces that follow platform-specific design guidelines",
           icon: "layout",
         },
         {
           title: "Backend Development",
-          description: "Robust server-side solutions to power your mobile applications",
+          description:
+            "Robust server-side solutions to power your mobile applications",
           icon: "server",
         },
         {
           title: "API Integration",
-          description: "Seamless integration with third-party services and existing systems",
+          description:
+            "Seamless integration with third-party services and existing systems",
           icon: "link",
         },
         {
           title: "App Store Optimization",
-          description: "Strategies to improve visibility and downloads in app stores",
+          description:
+            "Strategies to improve visibility and downloads in app stores",
           icon: "trending-up",
         },
       ],
@@ -927,10 +954,10 @@ From concept to launch and beyond, we provide end-to-end mobile app development 
         },
       ],
     },
-  ]
+  ];
 }
 
 export function getServiceById(id: string): Service | undefined {
-  const services = getServices()
-  return services.find((service) => service.id === id)
+  const services = getServices();
+  return services.find((service) => service.id === id);
 }

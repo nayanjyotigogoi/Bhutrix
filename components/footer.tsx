@@ -64,11 +64,11 @@ const Footer = () => {
                   {t("footer.crm_solutions")}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/services" className="text-muted-foreground hover:text-primary">
                   {t("footer.sap_consulting")}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/ai-automation" className="text-muted-foreground hover:text-primary">
                   {t("footer.ai_automation")}
@@ -125,7 +125,7 @@ const Footer = () => {
                 <span className="font-medium">{t("footer.phone")}:</span> +91 9707385552
               </p>
               <p className="text-muted-foreground mb-2">
-                <span className="font-medium">{t("footer.email")}:</span> workwithnayan27@gmail.com
+                <span className="font-medium">{t("footer.email")}:</span> admin@bhutrix.com
               </p>
             </address>
           </div>

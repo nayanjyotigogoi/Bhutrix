@@ -8,7 +8,7 @@ export default function CareersPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <PageHeader
-        title="Careers at DevSphere"
+        title="Careers at Bhutrix"
         description="Join our team of innovators and make an impact in the tech world"
       />
 
@@ -60,8 +60,8 @@ export default function CareersPage() {
             </p>
             <p>
               Send your resume to{" "}
-              <a href="mailto:careers@devsphere.com" className="text-primary hover:underline">
-                careers@devsphere.com
+              <a href="mailto:careers@bhutrix.com" className="text-primary hover:underline">
+                careers@bhutrix.com
               </a>{" "}
               and we'll keep you in mind for future opportunities.
             </p>

@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div>
           <h2 className="text-2xl font-bold mb-4">Our Story</h2>
           <p className="mb-4">
-            Founded in 2023 in Guwahati, DevSphere was born out of a passion for technology and a vision to help
+            Founded in 2023 in Guwahati, Bhutrix was born out of a passion for technology and a vision to help
             businesses thrive in the digital age. What started as a small team of dedicated professionals has grown into
             a full-service IT company serving clients across various industries.
           </p>

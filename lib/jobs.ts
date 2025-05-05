@@ -23,7 +23,7 @@ export function getJobs(): Job[] {
       location: "Guwahati, India (Hybrid)",
       type: "Full-time",
       hours: "40 hours/week",
-      salary: "₹6,00,000 - ₹10,00,000/year",
+      salary: "₹2,00,000 - ₹4,00,000/year",
       postedDate: "April 20, 2023",
       startDate: "Immediate",
       description:
@@ -61,7 +61,7 @@ export function getJobs(): Job[] {
       location: "Guwahati, India (Remote)",
       type: "Full-time",
       hours: "40 hours/week",
-      salary: "₹5,00,000 - ₹8,00,000/year",
+      salary: "₹2,00,000 - ₹3,00,000/year",
       postedDate: "April 18, 2023",
       startDate: "Immediate",
       description:
@@ -99,7 +99,7 @@ export function getJobs(): Job[] {
       location: "Guwahati, India (Hybrid)",
       type: "Full-time",
       hours: "40 hours/week",
-      salary: "₹7,00,000 - ₹12,00,000/year",
+      salary: "₹3,00,000 - ₹5,00,000/year",
       postedDate: "April 15, 2023",
       startDate: "Immediate",
       description:

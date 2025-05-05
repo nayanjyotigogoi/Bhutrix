@@ -33,17 +33,7 @@ export function getPortfolioItems(): PortfolioItem[] {
       date: "March 2023",
       technologies: ["React", "Node.js", "PostgreSQL", "Docker"],
     },
-    {
-      id: "sap-implementation",
-      title: "SAP Implementation",
-      description:
-        "End-to-end SAP implementation for a manufacturing company. The project involved business process analysis, system configuration, data migration, and user training.",
-      image: "sap-implementation.png",
-      category: "SAP Consulting",
-      client: "IndustrialTech",
-      date: "May 2023",
-      technologies: ["SAP S/4HANA", "SAP Fiori", "ABAP"],
-    },
+
     {
       id: "ai-chatbot",
       title: "AI Customer Support Chatbot",

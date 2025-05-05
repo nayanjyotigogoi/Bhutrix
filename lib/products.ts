@@ -20,7 +20,7 @@ export function getProducts(): Product[] {
   return [
     {
       id: "crm-suite",
-      title: "DevSphere CRM Suite",
+      title: "Bhutrix CRM Suite",
       description: "A comprehensive customer relationship management solution designed for businesses of all sizes.",
       image: "crm-suite.jpg",
       price: "Starting at ₹7,499/month",
@@ -35,7 +35,7 @@ export function getProducts(): Product[] {
     },
     {
       id: "analytics-platform",
-      title: "DevSphere Analytics Platform",
+      title: "Bhutrix Analytics Platform",
       description: "Turn your data into actionable insights with our powerful analytics platform.",
       image: "analytics-platform.jpg",
       price: "Starting at ₹11,999/month",
@@ -50,7 +50,7 @@ export function getProducts(): Product[] {
     },
     {
       id: "ecommerce-solution",
-      title: "DevSphere E-Commerce Solution",
+      title: "Bhutrix E-Commerce Solution",
       description: "A complete e-commerce platform to help you sell products and services online.",
       image: "ecommerce-solution.jpg",
       price: "Starting at ₹14,999/month",
@@ -65,7 +65,7 @@ export function getProducts(): Product[] {
     },
     {
       id: "project-management",
-      title: "DevSphere Project Management",
+      title: "Bhutrix Project Management",
       description: "Streamline your project workflows and improve team collaboration.",
       image: "project-management.jpg",
       price: "Starting at ₹5,499/month",
@@ -80,7 +80,7 @@ export function getProducts(): Product[] {
     },
     {
       id: "hr-management",
-      title: "DevSphere HR Management",
+      title: "Bhutrix HR Management",
       description: "Simplify your human resources processes and employee management.",
       image: "hr-management.jpg",
       price: "Starting at ₹9,499/month",
@@ -95,7 +95,7 @@ export function getProducts(): Product[] {
     },
     {
       id: "ai-chatbot",
-      title: "DevSphere AI Chatbot",
+      title: "Bhutrix AI Chatbot",
       description: "Enhance customer support and engagement with our intelligent chatbot solution.",
       image: "ai-chatbot.jpg",
       price: "Starting at ₹6,499/month",

@@ -14,7 +14,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <PageHeader
-        title="About DevSphere"
+        title="About Bhutrix"
         description="Learn about our mission, vision, and the team behind our success"
       />
 
